@@ -1,0 +1,343 @@
+.nav{
+   background-color: green;
+   border-radius: 10px;
+}
+.nav>ul{
+   list-style: none;
+   padding: 0%;
+   margin: 0%;
+   float: right;
+   
+}
+.nav>ul>li{
+   display: inline-block;
+   padding: 20px;
+}
+.nav>ul>li:hover{
+   background-color: white;
+   border-radius: 29px;
+}
+.nav>ul>li>a{
+   color: red;
+   text-decoration: none;
+   font-size: large;
+}
+.nav>u>li>:hover a{
+   color: gray;
+}
+.nav>img{
+   height: 50px;
+}
+
+.commonCssColor{
+   background-color: red;
+   margin: 10px;
+   height: 40px;
+   border-radius: 10px;
+   border-color: #000;
+
+}
+.css1>img{
+   height: 300px;
+   width: 500px;
+}
+.css2{
+   color: black;
+   font-weight: bold;
+   text-decoration: underline;
+   background-color: gray;
+}
+.css3{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+   font-size: 15px;
+   text-indent: 100px;
+   color: black;
+}
+.cssColor{
+   color: black;
+   text-decoration: underline;
+   text-transform: uppercase;
+   background-color: gray;
+}
+.Color>a{
+   text-decoration: none;
+   display: inline-block;
+   padding: 8px 16px;
+}
+.Color{
+   background-color: grey;
+}
+.Color>:hover a{
+   background-color: #ddd;
+   color: black;
+}
+
+.css4{
+   text-align: justify;
+   text-indent: 100px;
+   font-style: italic;
+   letter-spacing: normal;
+   color: blueviolet;
+   
+
+}
+.css5{
+   background-color: gray;
+   text-decoration: underline;
+   text-transform: uppercase;
+   
+}
+.css6{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: oblique;
+   text-indent: 100px;
+   letter-spacing: normal;
+   list-style:lower-latin;
+   line-height: 25px;
+   color: darkblue;
+}
+.css7{
+   background-color: gray;
+   text-decoration: underline;
+   text-transform: uppercase;
+   
+}
+.css8{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: italic;
+   list-style:lower-roman;  
+   text-indent: 100px;
+   letter-spacing: 1px;
+  color: green;
+}
+.css9{
+   background-color: gray;
+   text-decoration: underline;
+   text-transform: uppercase;
+   
+}
+.css10>ol>li>p>b{
+   color: darkturquoise;
+   background-color: cornsilk;
+   font-style: italic;
+
+}
+.css10>ol>li>h5>b{
+   color: red;
+   background-color: blanchedalmond;
+   font-style: oblique;
+}
+.css11{
+   background-color: gray;
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+.css12{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style:initial,italic;
+   list-style:lower-roman;  
+   text-indent: 100px;
+   letter-spacing: 1px;
+   color: dodgerblue;
+   
+}
+.css13{
+   background-color: gray;
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+.css14{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+   list-style:lower-roman;  
+   text-indent: 100px;
+   letter-spacing: 1px;
+   text-decoration: solid;
+   color:indigo;
+}
+.css16{
+   color: black;
+   background-color: red;
+   border-radius: 10px;
+   font-size: larger;
+   font-style: oblique;
+
+}
+body{
+   background: #11998e;
+   background-color: -webkit-linear-gradient(to right, #38ef7d, #11998e); 
+   background: linear-gradient(to right, #38ef7d, #11998e); 
+}
+.card {
+   margin: 40px;
+   height: 460px;
+   width: 300px;
+   background-color: white;
+   margin: 5px auto;
+   border-radius: 10px;
+}
+.header{
+   margin: 40px;
+   height: 220px;
+   width: 95%;
+   margin:50px auto;
+   left: 0;
+   right: 0;
+   top: -30px;
+   border-radius: 12px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background-image: linear-gradient(to right, #1dd1a1, #1abc9c);
+}
+.header>img{
+   margin-right: 40px;
+   height: 120px;
+   width: 120px;
+   border-radius: 55px;
+   left: 90px;
+   top: 30px;
+
+}
+.header>h3{
+   font-family: sans-serif;
+   font-size: bold 30px;
+   font-weight: 100;
+   color: white;
+   top: 130px;
+   left: 110px;
+   text-align: center;
+}
+.header>p{
+  
+   font-size: 15px;
+   color: white;
+   left: 80px;
+   top: 160px;
+   bottom: 20px;
+   text-align: center;
+
+}
+.body{
+
+ height: 126px;
+ left: 5px;
+ right: 5px;
+ top: 50px;
+ border-radius: 10px;
+}
+.body>ul{
+  
+   left: 0;
+   right: 0;
+   bottom: 0;
+   top: 0;
+}
+.body>ul>li{
+ 
+   list-style: none;
+   display: block;
+   height: 40px;
+   width: 100px;
+   left: 0;
+   right: 0;
+   border-radius: 12px;
+   background-color: transparent;
+   transition: all ,3s ease-in-out;
+ 
+}
+.body>ul>li>p>h3{
+ 
+   bottom: 10px;
+   text-align: center;
+   text-indent: 100px;
+
+}
+
+.body>ul>li>h3{
+   top: -13px;
+   left: 58px;
+   color: #11998e;
+   text-align: center;
+   text-indent: 40px;
+  
+   
+}
+.body>ul>li>p{
+   top: 1000px;
+   right: 100px;
+   font-size: 12px;
+   font-family: sans-serif;
+   color: #11998e;
+   text-indent: -200px;
+   display: inline;
+}
+.body>ul>li>i{
+   left: 10px;
+   color: #16a085;
+   font-size: 26px;
+   float: left;
+   top: 500px;
+
+}
+
+.body>ul>li:nth-child(1){
+   bottom: -52px;
+   text-align: center;
+   
+}
+.body>ul>li>i:nth-child(1){
+   top: -100px;
+}
+.body>ul>li:nth-child(2){
+   bottom: -125px;
+   text-align: center;
+}
+.body>ul>li:nth-child(3){
+   bottom: -180px;
+   text-align: center;
+
+}
+.body>ul>li:nth-child(4){
+   bottom: 12px;
+   text-align: center;
+}
+.body>li:hover{
+   background-color: #16a085;
+
+}
+.footer {
+   height: 80px;
+   bottom: -30px;
+   left: 0;
+   right: 0;
+   border-radius: 12px;
+   width:95%;
+   margin: 0 auto;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background-image: linear-gradient(to right, #1dd1a1, #1abc9c);
+   
+}
+footer>ul{
+   position: absolute;
+   left: -1px;
+   padding: 10px;
+   
+}
+
+footer>ul>li{
+   display: inline-block;
+   margin-left: 30px;
+  
+}
+
+footer>ul>li>i{
+   font-size: 30px;
+   color: #000;
+   transition: all .3s ease-in;
+}
+
+footer>ul>li:hover i {
+   transform: scale(0.5);
+   color: green;
+  
+}
